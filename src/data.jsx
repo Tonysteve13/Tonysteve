@@ -259,34 +259,34 @@ export const portfolio = [
     ],
   },
   
-
-  {
+{
     id: 2,
     img: Work2,
     title: 'Websites',
     details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://tonysteve.vercel.app/',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
-      },
-      {
-        icon: <FiGithub />,
-        title: 'Github : ',
-        desc: 'www.github.com',
-      },
+        {
+            icon: <FiFileText />,
+            title: 'Project: ',
+            desc: 'Website',
+        },
+        {
+            icon: <FiExternalLink />,
+            title: 'Preview: ',
+            desc: <a href="https://tonysteve.vercel.app/" target="_blank" rel="noopener noreferrer">https://tonysteve.vercel.app/</a>,
+        },
+        {
+            icon: <FaCode />,
+            title: 'Language: ',
+            desc: 'React JS',
+        },
+        {
+            icon: <FiGithub />,
+            title: 'GitHub: ',
+            desc: <a href="https://github.com/Tonysteve13/Tonysteve.git" target="_blank" rel="noopener noreferrer">https://github.com/Tonysteve13/Tonysteve.git</a>,
+        },
     ],
-  },
+},
+
 
   {
     id: 3,
