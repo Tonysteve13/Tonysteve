@@ -273,7 +273,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'Dribble',
+        desc: 'https://tonysteve.vercel.app/',
       },
       {
         icon: <FaCode />,
