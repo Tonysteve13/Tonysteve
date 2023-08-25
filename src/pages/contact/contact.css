@@ -1,0 +1,153 @@
+.contact {
+    cursor: pointer;
+}
+
+.contact__container {
+    grid-template-columns: 4fr 8fr;
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-bottom: 1rem;
+}
+
+.contact__description {
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+}
+
+.contact__description,
+.contact__info .info__item {
+    margin-bottom: 20px;
+}
+
+.contact__item {
+    display: flex; /* Display items in a row */
+    align-items: center; /* Center items vertically */
+    column-gap: 16px; /* Gap between icon and text */
+}
+  
+.contact__link {
+    color: hsl(0, 0%, 50%); /* Initial color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+  
+.contact__link:hover {
+    color: var(--first-color); /* Change color on hover */
+}
+  
+  
+.contact__info .info__item {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.contact__info .info__icon {
+    color: var(--first-color);
+    font-size: var(--h2-font-size);
+}
+
+.contact__info .info__title {
+    font-style: var(--small-font-size);
+    font-weight: var(--weight-500);
+}
+
+.contact__info .info__desc {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+}
+
+.contact__socials {
+    display: flex;
+    column-gap: 16px;
+}
+
+.contact__social-link {
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: all 0.3s ease;
+}
+
+.contact__social-link:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.form__input-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.form__input-div {
+    margin-bottom: 30px;
+}
+
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.form__control:focus {
+    border-color: var(--first-color);
+}
+
+.textarea {
+    resize: none;
+    height: 160px;
+    width: 100%; /* Set the width to 100% */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 10px; /* Add a small space between textarea and button */
+}
+
+.contact__button-icon {
+    font-size: var(--h3-font-size);
+    line-height: 64px;
+}
+
+/* Add error styles for input fields */
+.form__control.error {
+    border: 2px solid red;
+}
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+.error-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.error-popup__message {
+    margin: 0;
+}
+
