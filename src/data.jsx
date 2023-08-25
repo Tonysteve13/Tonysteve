@@ -7,7 +7,7 @@ import {
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink, FiGithub, FiFigma  } from 'react-icons/fi';
+import { FiFileText,  FiExternalLink, FiGithub, FiFigma  } from 'react-icons/fi';
 
 import Work1 from './assets/pro-min.png';
 import Work2 from './assets/OPTY3C12-min.png';
@@ -76,43 +76,37 @@ export const personalInfo = [
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '21 Years',
-  },
-
-  {
-    id: 4,
     title: 'Nationality : ',
     description: 'Cameroonian',
   },
 
   {
-    id: 5,
+    id: 4,
     title: 'Freelance : ',
     description: 'Available',
   },
 
   {
-    id: 6,
+    id: 5,
     title: 'Address : ',
     description: 'Douala, Cameroon',
   },
 
   {
-    id: 7,
+    id: 6,
     title: 'Phone : ',
     description: '+237 658459727',
   },
 
   {
-    id: 8,
+    id: 7,
     title: 'Email : ',
     description: 'ts4665768@gmail.com',
   },
 
 
   {
-    id: 9,
+    id: 8,
     title: 'Languages : ',
     description: ' English, French',
   },
@@ -152,7 +146,7 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2023',
-    title: 'Higher National Diploma (HND) <span> UNIVERSITY INSTITUTE OF THE GULF OF GUINEA</span>',
+    title: 'Higher National Diploma (HND) <span>IUG</span>',
   },
 
  
@@ -162,19 +156,19 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '75',
+    percentage: '80',
   },
 
   {
     id: 2,
     title: 'CSS/Bootstrap',
-    percentage: '60',
+    percentage: '70',
   },
 
   {
     id: 3,
     title: 'Javascript',
-    percentage: '66',
+    percentage: '68',
   },
 
   {
@@ -186,7 +180,7 @@ export const skills = [
   {
     id: 5,
     title: 'Figma',
-    percentage: '75',
+    percentage: '86',
   },
 
   {
@@ -198,13 +192,13 @@ export const skills = [
   {
     id: 7,
     title: 'Adobe Illustrator',
-    percentage: '65 ',
+    percentage: '75',
   },
 
   {
     id: 8,
     title: 'Adobe Photoshop',
-    percentage: '50',
+    percentage: '65',
   },
 
   {
@@ -215,7 +209,7 @@ export const skills = [
 
   {
     id: 10,
-    title: 'PHP',
+    title: 'PHP/MYSQL',
     percentage: '45',
   },
 
@@ -249,7 +243,7 @@ export const portfolio = [
       },
       {
         icon: (
-          <a href="https://github.com/Tonysteve13/OFOS.git" target="_blank">
+          <a href="https://github.com/Tonysteve13/OFOS.git"  rel='noreferrer' target="_blank">
             <FiGithub />
           </a>
         ),
@@ -259,34 +253,34 @@ export const portfolio = [
     ],
   },
   
-{
+
+  {
     id: 2,
     img: Work2,
     title: 'Websites',
     details: [
-        {
-            icon: <FiFileText />,
-            title: 'Project: ',
-            desc: 'Website',
-        },
-        {
-            icon: <FiExternalLink />,
-            title: 'Preview: ',
-            desc: <a href="https://tonysteve.vercel.app/" target="_blank" rel="noopener noreferrer">https://tonysteve.vercel.app/</a>,
-        },
-        {
-            icon: <FaCode />,
-            title: 'Language: ',
-            desc: 'React JS',
-        },
-        {
-            icon: <FiGithub />,
-            title: 'GitHub: ',
-            desc: <a href="https://github.com/Tonysteve13/Tonysteve.git" target="_blank" rel="noopener noreferrer">https://github.com/Tonysteve13/Tonysteve.git</a>,
-        },
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+      {
+        icon: <FiGithub />,
+        title: 'Github : ',
+        desc: 'www.github.com',
+      },
     ],
-},
-
+  },
 
   {
     id: 3,
@@ -311,7 +305,7 @@ export const portfolio = [
       
         {
           icon: (
-            <a href="https://github.com/Tonysteve13/NetflixClone.git" target="_blank">
+            <a href="https://github.com/Tonysteve13/NetflixClone.git" rel='noreferrer' target="_blank">
               <FiGithub />
             </a>
           ),

@@ -9,7 +9,7 @@ const PortfolioItem = ({img, title, details}) => {
     };
 
   return (
-    <div className="portfolio__item">
+    <div className="portfolio__item" data-aos="fade-up" data-aos-duration="3000">
         <img src={img} className='portfolio__img' />
 
         <div className="portfolio__hover" onClick={toggleModal}>

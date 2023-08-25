@@ -226,16 +226,16 @@
 
     .style__switcher-toggler,
     .theme__toggler {
-        width: 40px;
+        width: 28px;
         height: 40px;
     }
 
     .style__switcher-toggler {
-        top: 15%;
+        top: 145%;
     }
 
     .theme__toggler {
-        bottom: 15%;
+        top: 185%;
     }
 
     .style__switcher-close {
@@ -247,6 +247,14 @@
     .home__img {
         display: none;
     }
+
+    /* .home__img {
+        width: 200px;
+        height: 200px;
+        border-radius: 40%;
+        margin-top: auto;
+    } */     if you want the img to display on the smallest screen sizes and can be adjustable
+
 
     .home__content {
         margin-block: auto;

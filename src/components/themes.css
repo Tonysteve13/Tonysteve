@@ -69,11 +69,11 @@
 }
 
 .style__switcher-toggler {
-    top: 10%;
+    top: 130%;
 }
 
 .theme__toggler {
-    bottom: 10%;
+    bottom: -10%;
 }
 
 .style__switcher-close {
@@ -83,4 +83,6 @@
     top: 2%;
     right: 15px;
 }
+
+
 

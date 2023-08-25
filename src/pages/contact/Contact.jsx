@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { FaEnvelopeOpen, FaPhoneSquareAlt, FaInstagram, FaTwitter, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { FiSend } from 'react-icons/fi';
 import { ToastContainer } from 'react-toastify';
@@ -67,7 +67,7 @@ const Contact = () => {
             formData.append('message', message);
     
             try {
-                const response = await fetch('https://formspree.io/f/xjvqwrrb', {
+                const response = await fetch('https://formspree.io/f/mzblrkwq', {
                     method: 'POST',
                     body: formData,
                     headers: {
@@ -129,7 +129,7 @@ const Contact = () => {
                              <div>
                                  <span className="info__title">Mail me</span>
                                  <h4 className="info__desc">
-                                     <a href="mailto:ts4665768@gmail.com" className='contact__link'>ts4665768@gmail.com</a>
+                                     <a href="mailto:ts4665768@gmail.com" className='contact__link'>tonysteve.designx@gmail.com</a>
                                  </h4>
                              </div>
                          </div> <br />

@@ -53,6 +53,10 @@
 
 }
 
+.home__description span {
+    color: var(--first-color);
+}
+
 .color__block {
     position: fixed;
     height: 200%;
