@@ -279,7 +279,7 @@
     }
 } 
 
-@media screen and (max-width: 350px)  {
+/* @media screen and (max-width: 350px)  {
     .home__title span {
         display: inline;
     }
@@ -287,4 +287,4 @@
     .stats {
         grid-template-columns: 1fr;
     }
-}
+} */
