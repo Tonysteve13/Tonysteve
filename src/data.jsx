@@ -12,12 +12,12 @@ import { FiFileText,  FiExternalLink, FiGithub, FiFigma  } from 'react-icons/fi'
 import Work1 from './assets/pro-min.png';
 import Work2 from './assets/OPTY3C12-min.png';
 import Work3 from './assets/pro1-min.png';
-import Work4 from './assets/OJK92B1-min.png';
-import Work5 from './assets/OPTY3C1-min.png';
-import Work6 from './assets/project22.jpg-min.png';
-import Work7 from './assets/807-min.png';
-import Work8 from './assets/809-min.png';
-import Work9 from './assets/808-min.png';
+import Work4 from './assets/1.png';
+import Work5 from './assets/2.png';
+import Work6 from './assets/3.png';
+import Work7 from './assets/tonybankx.png';
+import Work8 from './assets/coffee.png';
+import Work9 from './assets/learn.png';
 
 
 import Theme1 from './assets/purple.png';
@@ -118,8 +118,8 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - PRESENT',
-    title: 'Frontend Developer <span> Nexinch LLC </span>',
+    year: 'January - 2022 - PRESENT',
+    title: 'Frontend Developer',
     desc: ' Developing and implementing a cutting-edge, user-friendly website, elevating the overall user experience. By incorporating intuitive UI/UX elements and optimizing performance.',
   },
 
@@ -127,8 +127,8 @@ export const resume = [
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - Present',
-    title: 'UI/UX Designer <span> Freelancer </span>',
+    year: 'MAY - 2022 - Present',
+    title: 'UI/UX Designer',
     desc: 'Design of mobile application, websites and Product designs resulting in a more intuitive user interface and positive user feedback.',
   },
 
@@ -136,8 +136,8 @@ export const resume = [
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - Present',
-    title: 'Graphic Design <span> Freelancer </span>',
+    year: 'JUNE 2022 - Present',
+    title: 'Graphic Design ',
     desc: 'Creating Visually compelling graphis designs for Individual business and small companies contributing to increase in brand awareness',
   },
 
